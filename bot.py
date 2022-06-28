@@ -40,9 +40,9 @@ async def on_guild_join(guild):
 async def help( ctx ):
   emb = discord.Embed( title = 'Навигация по-командам' )
   
-  emb.add_field( name = '{}clear'.format( PREFIX ), value = 'Очистка чата')
-  emb.add_field( name = '{}kick'.format( PREFIX ), value = 'Удаление участникаи с сервера')
-  emb.add_field( name = '{}ban'.format( PREFIX ), value = 'Ограничение доступа к серверу')
+  emb.add_field( name = '{}clear'.format( PREFIX ), value = 'Очистка чата 🗑')
+  emb.add_field( name = '{}kick'.format( PREFIX ), value = 'Удаление участника с сервера ❌ ') 
+  emb.add_field( name = '{}ban'.format( PREFIX ), value = 'Ограничение доступа к серверу ⚠️ ')
   emb.add_field( name = '{}unban'.format( PREFIX ), value = 'Удаление ограничения к доступу к серверу')
 
 )
