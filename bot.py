@@ -33,3 +33,5 @@ async def on_guild_join(guild):
             "Fun": True,
             "Giveaway": True
         }) 
+
+@client.commands        
