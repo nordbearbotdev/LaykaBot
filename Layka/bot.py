@@ -51,7 +51,10 @@ async def ban ( ctx, member: discord.Member, *, reason = None):
 @client.command( pass_context = True)                 
 
 async def unban( ctx, *, member )                 
-
+   await ctx.channel.purge( limit = 1 )
+                 
+   banned_user = ctx.guild              
+                 
 # Help-list                 
 async def help( ctx ):
   emb = discord.Embed( title = 'Навигация по-командам' )
