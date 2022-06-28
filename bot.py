@@ -16,26 +16,16 @@ client.remove_command( 'help' )
 
 async def on_ready():
   print('Под поключен✅')
-
-@bot.event
-async def on_guild_join(guild):
-    if not await db.PLUGINS.count_documents({"_id": guild.id}, limit=1):
-        await db.PLUGINS.insert_one({
-
-            "_id": guild.id,
-            "Leveling": False,
-            "Moderation": True,
-            "ReactionRoles": True,
-            "Welcome": False,
-            "Verification": False,
-            "Chatbot": True,
-            "AutoMod": False,
-            "Fun": True,
-            "Giveaway": True
-        }) 
-        
+       
 @client.commands( pass_context = True)      
 @commnads.has_permession( administrator = True)
+
+# Kick
+@client.commands( pass_context = True)      
+@commnads.has_permession( administrator = True)
+
+
+async def kick( ctx, member:)
 
 async def help( ctx ):
   emb = discord.Embed( title = 'Навигация по-командам' )
