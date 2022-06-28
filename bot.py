@@ -1,3 +1,4 @@
+import os
 import disocrd
 import random
 from discord.ext import commands
