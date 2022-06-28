@@ -37,7 +37,8 @@ async def kick( ctx, member: discord.Member, , reason = None );
     
 
 # Ban 
-
+@client.command( pass_context = True )
+@commands.has_permissions( administrator = True )                 
 
 
 async def help( ctx ):
