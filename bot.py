@@ -46,3 +46,9 @@ async def help( ctx ):
   emb.add_field( name = '{}unban'.format( PREFIX ), value = 'Удаление ограничения к доступу к серверу')
 
 )
+
+
+# Получение токена
+token = open( 'token.txt',  'r' ).readline()
+
+client.run( token )
