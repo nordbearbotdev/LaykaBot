@@ -5,3 +5,15 @@
 
 - [Python]()
 - [Git]()
+
+### 🐳 Docker
+
+```shell
+docker push nordbearbot/LaykaBot
+```
+
+### 🐱 Github
+```shell
+git clone https://github.com/nordbearbotdev/LaykaBot
+cd LaykaBot
+```
