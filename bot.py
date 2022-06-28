@@ -1,6 +1,10 @@
 import os
 import disocrd
 import random
+import disnake
+from disnake.ext import commands
+import database as db
+import constants as var
 from discord.ext import commands
 
 PREFIX = ''
