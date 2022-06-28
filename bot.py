@@ -34,4 +34,4 @@ async def on_guild_join(guild):
             "Giveaway": True
         }) 
 
-@client.commands        
+@client.commands( pass_context = True)      
