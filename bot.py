@@ -17,15 +17,28 @@ client.remove_command( 'help' )
 async def on_ready():
   print('Под поключен✅')
        
+# Clear   
 @client.commands( pass_context = True)      
 @commnads.has_permession( administrator = True)
+
+async def clear( ctx, amount = 100 ):
+  await ctx.channel.purge( limit = amount )
 
 # Kick
 @client.commands( pass_context = True)      
 @commnads.has_permession( administrator = True)
 
+async def kick( ctx, member: discord.Member, , reason = None );
+  await ctx.channel.purge( limit = 1 )
+   
+  await member.kick( reason = reason)
+  await ctx.send( f'kick user:'
+  
+    
 
-async def kick( ctx, member:)
+# Ban 
+
+
 
 async def help( ctx ):
   emb = discord.Embed( title = 'Навигация по-командам' )
