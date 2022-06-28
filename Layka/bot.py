@@ -40,7 +40,10 @@ async def kick( ctx, member: discord.Member, , reason = None );
 @commands.has_permissions( administrator = True )                 
 
 async def ban ( ctx, member: discord.Member, *, reason = None):
-  await ctx.channel.purge
+  await ctx.channel.purge( limit = 1 )
+                 
+  await member.ban( reason = reason ) 
+  await ctx.send(f'ban user')               
 
 async def help( ctx ):
   emb = discord.Embed( title = 'Навигация по-командам' )
