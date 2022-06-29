@@ -1,4 +1,28 @@
-![Discord-Login-Page-Background-discordapp](https://user-images.githubusercontent.com/85753549/176503355-2ef4ef09-8de9-41cc-afe6-bb0623b5cdf1.jpg)
+<p align="center">
+  <img src="https://i.discord.fr/PSS.png">
+</p>
+
+<h1 align="center">[Discord] - LaykaBot (V0.0.1)</h1>
+<p align="center">
+  <a href="https://github.com/nordbearbotdev/LaykaBot/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL3-important">
+  </a>
+  <a href="https://www.python.org">
+    <img src="https://img.shields.io/badge/Python-3.9-informational.svg">
+  </a>
+  <a href="https://github.com/nordbearbotdev/LaykaBot">
+    <img src="https://img.shields.io/badge/covarage-95%25-green">
+  </a>
+  <a href="https://github.com/nordbearbotdev">
+    <img src="https://img.shields.io/github/repo-size/AstraaDev/Discord-All-Tools-In-One.svg?label=Repo%20size&style=flat-square">
+  </a>
+  <a href="https://github.com/nordbearbotdev">
+    <img src="https://">
+  </a>
+    <p align="center"> <a href="https://discord.gg" target="blank">
+    <img src="https://discord-badges.ddns.net/badge/discord/online/136501988941758464/)" alt="LaykaBot"/></a>
+  </a>
+</p>
 
 
 # 🕹️ Запуск и постройка проекта
