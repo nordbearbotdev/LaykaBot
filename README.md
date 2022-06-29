@@ -19,10 +19,10 @@
   <a href="https://github.com/nordbearbotdev">
     <img src="https://">
   </a>
-    <p align="center"> <a href="https://discord.gg" target="blank">
-    <img src="https://discord-badges.ddns.net/badge/discord/online/136501988941758464/)" alt="LaykaBot"/></a>
+    <img src="https://img.shields.io/discord/981289415538266162  " alt="LaykaBot"/></a>
   </a>
 </p>
+
 
 
 # Содержание
