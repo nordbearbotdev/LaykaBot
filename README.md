@@ -35,8 +35,8 @@
 Пригласить бота на сервер можно по-ссылке: [клик](https://discord.com/oauth2/authorize?client_id=992017702522724413&scope=bot+applications.commands)
 
 # Функции
-- [ ] /kick
-- [ ] /ban
+- [ ] /kick - Удаляет пользователя с сервера
+- [ ] /ban - Ограничиват доступ пользователю к серверу
 - [ ] /mute
 - [ ] /unban
 - [ ] /unmute
