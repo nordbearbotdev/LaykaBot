@@ -2,7 +2,7 @@
   <img src="https://i.discord.fr/PSS.png">
 </p>
 
-<h1 align="center">[Discord] - LaykaBot (V0.0.1)</h1>
+<h1 align="center">[Discord] - LaykaBot</h1>
 <p align="center">
   <a href="https://github.com/nordbearbotdev/LaykaBot/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-GPL3-important">
