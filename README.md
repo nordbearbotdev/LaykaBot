@@ -32,7 +32,7 @@
 
 # Что такое LaykaBot?
 [LaykaBot]() - данный бот-модератор поможет вашему Discord серверу в обеспечении безопасности, модерации и т.д.
-Пригласить бота на сервер можно по-ссылке: https://discord.com/oauth2/authorize?client_id=992017702522724413&scope=bot+applications.commands
+Пригласить бота на сервер можно по-ссылке: [клик](https://discord.com/oauth2/authorize?client_id=992017702522724413&scope=bot+applications.commands)
 
 # Функции
 
